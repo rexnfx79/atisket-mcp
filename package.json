@@ -1,0 +1,19 @@
+{
+  "name": "atisket-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Atisket - AI-powered task prioritization, goal breakdown, daily planning, and productivity frameworks",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "atisket-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": ["mcp", "productivity", "tasks", "prioritization", "planning", "gtd", "eisenhower", "ai"],
+  "license": "MIT",
+  "author": "Arca LLC"
+}
