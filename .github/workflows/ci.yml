@@ -1,0 +1,17 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  gate:
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder gate (no test/typecheck/lint/build configured yet)
+        run: |
+          echo "No CI checks are configured for atisket-mcp yet."
+          echo "This gate passes by default until real jobs (test, typecheck, lint, build) exist."
+          echo "Add real jobs later, list them in this jobs needs array, and fail the gate if any did not succeed."
